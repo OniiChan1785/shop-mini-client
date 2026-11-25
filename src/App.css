@@ -268,8 +268,8 @@ main {
 /* ---------- Danh sách sách ---------- */
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
 }
 
 .product-card {
@@ -287,23 +287,30 @@ main {
   box-shadow: var(--shadow-hover);
 }
 
+/* Khung ảnh thấp, bìa sách đứng giữa như đặt trên kệ */
 .product-image {
   position: relative;
-  aspect-ratio: 3 / 4;
-  background: #eef1f6;
+  height: 240px;
+  padding: 16px;
+  background: linear-gradient(180deg, #eef3fb, #e2e8f2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
 }
 
 .product-card img {
-  width: 100%;
   height: 100%;
-  object-fit: cover;
+  width: auto;
+  object-fit: contain;
   display: block;
-  transition: transform 0.4s;
+  border-radius: 3px;
+  box-shadow: 0 6px 14px rgba(15, 27, 45, 0.25);
+  transition: transform 0.3s;
 }
 
 .product-card:hover img {
-  transform: scale(1.04);
+  transform: scale(1.05);
 }
 
 .product-card.is-out img {
@@ -542,31 +549,5 @@ main {
     padding: 12px;
   }
 
-  /* 2 cột sách trên điện thoại, giống các nhà sách online */
-  .product-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-  }
-
-  .product-body {
-    padding: 12px;
-  }
-
-  .product-name {
-    font-size: 15px;
-    min-height: calc(15px * 1.35 * 2);
-  }
-
-  .product-price {
-    font-size: 16px;
-  }
-
-  .product-old-price {
-    font-size: 12px;
-  }
-
-  .btn {
-    font-size: 14px;
-    padding: 10px 8px;
-  }
+  /* Lưới sách tự xuống 1 cột (minmax 240px), đúng như đề */
 }
