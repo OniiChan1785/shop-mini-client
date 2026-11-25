@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a3e635"/><stop offset="1" stop-color="#4d7c0f"/></linearGradient></defs>
+<rect width="300" height="400" fill="url(#g)"/>
+<rect x="0" y="0" width="14" height="400" fill="#000" opacity=".15"/>
+<rect x="28" y="28" width="244" height="344" fill="none" stroke="#fff" stroke-width="1.5" opacity=".45"/>
+<path d="M0 400 Q6 330 14 400" fill="#fff" opacity=".22"/><path d="M22 400 Q28 345 36 400" fill="#fff" opacity=".22"/><path d="M44 400 Q50 360 58 400" fill="#fff" opacity=".22"/><path d="M66 400 Q72 330 80 400" fill="#fff" opacity=".22"/><path d="M88 400 Q94 345 102 400" fill="#fff" opacity=".22"/><path d="M110 400 Q116 360 124 400" fill="#fff" opacity=".22"/><path d="M132 400 Q138 330 146 400" fill="#fff" opacity=".22"/><path d="M154 400 Q160 345 168 400" fill="#fff" opacity=".22"/><path d="M176 400 Q182 360 190 400" fill="#fff" opacity=".22"/><path d="M198 400 Q204 330 212 400" fill="#fff" opacity=".22"/><path d="M220 400 Q226 345 234 400" fill="#fff" opacity=".22"/><path d="M242 400 Q248 360 256 400" fill="#fff" opacity=".22"/><path d="M264 400 Q270 330 278 400" fill="#fff" opacity=".22"/><path d="M286 400 Q292 345 300 400" fill="#fff" opacity=".22"/><ellipse cx="200" cy="310" rx="22" ry="12" fill="#3f2a14" opacity=".75"/><line x1="215" y1="302" x2="245" y2="280" stroke="#3f2a14" stroke-width="2"/>
+<text x="150" y="90" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-weight="700" font-size="32" fill="#fff">DẾ MÈN</text><text x="150" y="132" text-anchor="middle" font-family="'Times New Roman', Times, serif" font-weight="700" font-size="32" fill="#fff">PHIÊU LƯU KÝ</text>
+<line x1="110" y1="164" x2="190" y2="164" stroke="#fff" stroke-width="2" opacity=".7"/>
+<text x="150" y="192" text-anchor="middle" font-family="system-ui, 'Segoe UI', sans-serif" font-size="15" fill="#fff" opacity=".9">Tô Hoài</text>
+</svg>
