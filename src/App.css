@@ -75,13 +75,13 @@ a {
   margin-bottom: 6px;
 }
 
-.btn-light {
+.btn.btn-light {
   padding: 12px 28px;
   background: #fff;
   color: #1f5fd1;
 }
 
-.btn-light:hover {
+.btn.btn-light:hover {
   background: #e8f0fe;
 }
 
