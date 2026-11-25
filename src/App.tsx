@@ -13,7 +13,7 @@ function App() {
       <main>
         <Banner />
         <CategoryList items={products} />
-        <ProductList title="Sản phẩm nổi bật" items={products} />
+        <ProductList title="Sách nổi bật" items={products} />
       </main>
       <Footer />
     </>

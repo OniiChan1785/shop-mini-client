@@ -3,8 +3,8 @@ export default function Banner() {
     <section className="container">
       <div className="banner">
         <div>
-          <h2>Siêu sale cuối năm – Giảm đến 50%</h2>
-          <p>Hàng ngàn sản phẩm thời trang, điện tử, gia dụng đang chờ bạn.</p>
+          <h2>Hội sách cuối năm – Giảm đến 50%</h2>
+          <p>Hàng ngàn đầu sách văn học, kỹ năng, công nghệ, thiếu nhi đang chờ bạn.</p>
         </div>
         <button className="btn btn-light">Mua ngay</button>
       </div>
